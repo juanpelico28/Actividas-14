@@ -15,7 +15,7 @@ Estudiante e = new Estudiante();
 Console.WriteLine($"\n------ Ingrese datos del estudiante {i + 1} ----- ");
 Console.Write("Nombre: "); e.Nombre = Console.ReadLine();
 Console.Write("Nota 1: "); e.Nota1 = double.Parse(Console.ReadLine());
-Console.Write("Nota 2: "); e.Nota3 = double.Parse(Console.ReadLine());
+Console.Write("Nota 2: "); e.Nota2 = double.Parse(Console.ReadLine());
 Console.Write("Nota 3: "); e.Nota3 = double.Parse(Console.ReadLine());
 estudiantes.Add(e);
 }
